@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radionice - Prozornica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #f79e57, #f26522);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Baloo 2', cursive;
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin: 0;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #f26522;
+      margin-bottom: 2rem;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      width: 280px;
+      padding: 2rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 70px;
+      margin-bottom: 1rem;
+      animation: float 2s ease-in-out infinite alternate;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      color: #f26522;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 1.05rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dobrodošli u Prozornicu</h1>
+    <p>Gde se učenje i igra sreću u čarobnom svetu znanja</p>
+  </header>
+
+  <section class="section">
+    <h2>Naše radionice</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/write.png" alt="Pisanje" />
+        <h3>Pisanje sastava</h3>
+        <p>Učimo da pišemo srcem. Razvijamo maštu, izražavanje i stil kroz vođene zadatke i igru reči.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/speech-bubble.png" alt="Logopedija" />
+        <h3>Logopedske radionice</h3>
+        <p>Podrška govorno-jezičkom razvoju kroz igre, pesme i ritmičke vežbe sa stručnjacima.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/theater-masks.png" alt="Pozorište" />
+        <h3>Lutkarsko pozorište</h3>
+        <p>Kroz likove i priče razvijamo emocije, samopouzdanje i timski duh.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/relax.png" alt="Relax Kids" />
+        <h3>Relax Kids</h3>
+        <p>Disanje, opuštanje i vežbe koncentracije. Idealno za razvoj emocionalne otpornosti.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/idea.png" alt="Gramatika" />
+        <h3>Mini programi jezika</h3>
+        <p>Padeži, vrste reči i glagolski oblici na zabavan i primenljiv način.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/ios/452/book.png" alt="Engleski" />
+        <h3>Engleski jezik</h3>
+        <p>Kroz igru, pesme i dramatizaciju učimo prve korake engleskog jezika.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Prozornica - Edukativni centar za decu
+  </footer>
+
+</body>
+</html>
